@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;1,100&family=Inter:wght@200&family=Open+Sans:wght@300;400&family=Roboto&family=Roboto+Mono:wght@500&family=Titillium+Web&display=swap');
+html,body
+   {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+@font-face {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Titillium Web', sans-serif;
+    }
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.carousel-container {
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-logo-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.demo-vid-subtitle {
+    margin-top: 10vh;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+}
+
+.demo-vid {
+    height: 700px;
+}
+
+.carousel-status {
+    display: none;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-title {
+    font-size: 71px;
+    color: black;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+
+.see-logo {
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-subtitle {
+    font-size: 20px;
+    color: black;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Titillium Web', sans-serif;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    text-align: center;
+}
+
+.home-subtitle-init {
+    font-size: 20px;
+    color: black;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.partners-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+}
+
+.web-app-img {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-alone {
+    width: 300px;
+    height: 200px;
+}
+
+.juniper-img {
+    width: 100%;
+    cursor: pointer;
+
+}
+
+.geo-img {
+   width: 100%;
+   cursor: pointer;
+}
+
+.sok-img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.img-wrapper {
+    padding: 10px;
+    flex-basis: 30%;
+}
+
+.who-we-are, .who-we-are-init {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding-bottom: 5vh;
+}
+
+.who-we-are {
+    margin-top: 25vh;
+}
+
+.who-we-are-init {
+    margin-top: 5vh;
+}
+
+.browsing-categ {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 20px;
+    border-radius: 20px;
+    min-width: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    width: 350px;
+}
+
+.browsing-label {
+    color: black;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.browsing-img {
+    height: 300px;
+}
+
+.right {
+    margin-left: auto;
+    margin-right: 5vw;
+    text-align: right !important;
+}
+
+.left {
+    margin-right: auto;
+    margin-left: 5vw;
+}
+
+.features-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-title {
+    font-size: 40px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    text-align: left;
+}
+
+.features-card {
+    margin-top: 5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-text-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.feature-img {
+    height: 400px;
+    width: 400px;
+}
+
+.feature-text {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Titillium Web', sans-serif;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    text-align: justify;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+@media screen and (max-width: 768px) {
+
+    .see-logo {
+        width: 100vw;
+        height: auto;
+    }
+
+    .carousel-container {
+    }
+
+    .who-we-are, .who-we-are-init {
+        flex: 1;
+    }
+
+    .who-we-are {
+        margin-top: 12vh;
+        display: flex;
+        flex-wrap: wrap;
+        white-space: normal;
+        width: 90vw;
+    }
+
+    .home-title {
+        font-size: 45px;
+        
+    }
+
+    .img-text-container {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .features-card {
+        width: 90vw;
+    }
+
+    .feature-title {
+        font-size: 34px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .feature-img {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        order: 0;
+    }
+
+    .feature-text {
+        margin-top: 5vh;
+        order: 2;
+        display: flex;
+        justify-content: center;
+    }
+
+    .web-app-img {
+        width: 80vw;
+    }
+
+    .right, .left {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .home-subtitle {  
+        display: flex;
+        justify-content: center;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+
+
+
+    .geo-img {
+        width: 200px;
+        height: 150px;
+        margin-bottom: 5vh;
+    }
+
+    .sok-img {
+        width: 200px;
+        height: 100px;
+        margin-bottom: 5vh;
+    }
+
+    .browsing-categ {
+        margin-bottom: 5vh;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .browsing-label {
+        font-size: 20px;
+    }
+
+    .partners-container {
+        flex-direction: column;
+    }
+
+    .browsing-img {
+        width: 70vw;
+    }
+
+    .demo-vid {
+        width: 85vw;
+    }
+
+}
