@@ -73,7 +73,7 @@ const Home = () => {
                                 <p className="feature-title">Object Recognition</p>
                                 <div className="img-text-container">
                                     <img className="feature-img" src={objectRecog}></img>
-                                    <p className="feature-text">Our object recognition technology utilizes state-of-the-art <a href="https://github.com/ultralytics/yolov5">YOLO</a> (You Only Look Once) algorithms to provide seamless and accurate detection of up to 91 objects in real-time. By leveraging the video feed captured from the cameras mounted on our AI-powered glasses, we employ the power of deep learning to identify and classify objects with exceptional speed and precision. With a focus on reducing latency, we utilize WebRTC (Web Real-Time Communication) streaming technology to deliver a smooth and near-instantaneous visual experience. This enables our users to effortlessly navigate their surroundings, effortlessly recognizing and interacting with various objects in their environment.</p>
+                                    <p className="feature-text">Our object recognition technology utilizes state-of-the-art YOLO (You Only Look Once) algorithms to provide seamless and accurate detection of up to 91 objects in real-time. By leveraging the video feed captured from the cameras mounted on our AI-powered glasses, we employ the power of deep learning to identify and classify objects with exceptional speed and precision. With a focus on reducing latency, we utilize WebRTC (Web Real-Time Communication) streaming technology to deliver a smooth and near-instantaneous visual experience. This enables our users to effortlessly navigate their surroundings, effortlessly recognizing and interacting with various objects in their environment.</p>
                                 </div>
 
                             </div>
@@ -97,7 +97,7 @@ const Home = () => {
                                 <p className="feature-title">Facial Recognition</p>
                                 <div className="img-text-container">
                                 <img className="feature-img" src={faceRecog}></img>
-                                    <p className="feature-text">Our object detection system incorporates the HuskyLens, an advanced device 
+                                    <p className="feature-text">Our facial recognition system incorporates the HuskyLens, an advanced device 
                                     for facial recognition. It enables our AI-powered glasses to learn and recognize faces, associating 
                                     them with names or labels. When encountering familiar faces, the glasses swiftly detect and identify 
                                     them, relaying the recognized names to the user through clear audio feedback. This technology enhances
