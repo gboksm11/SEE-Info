@@ -82,7 +82,7 @@ html,body
 }
 
 .see-logo {
-    height: 400px;
+    height: 40vh;
     margin-left: auto;
     margin-right: auto;
 }
@@ -98,7 +98,7 @@ html,body
     font-family: 'Titillium Web', sans-serif;
     padding-left: 5vw;
     padding-right: 5vw;
-    text-align: center;
+    text-align: justify;
 }
 
 .home-subtitle-init {
