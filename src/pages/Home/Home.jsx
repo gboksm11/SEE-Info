@@ -18,6 +18,7 @@ import josiah from "../../assets/josiah.jpg";
 import varun from "../../assets/varun.png";
 import SeeAnimated from "../../components/SeeAnimated/SeeAnimated";
 import ze_vid from "../../assets/see-vid-1.mov";
+import gogglesBanner from "../../assets/see-banner.jpg";
 
 const Home = () => {
 
@@ -32,6 +33,7 @@ const Home = () => {
                 <div className="home-logo-container">
                     <SeeAnimated/>
                     <img className="see-logo" src={logo}></img>
+                    <img className="main-goggles-banner" src={gogglesBanner}></img>
                 </div>
 
                 {/* <p className="home-title">Precision Measured, Results Guaranteed</p> */}
