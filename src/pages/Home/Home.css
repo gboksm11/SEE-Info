@@ -276,9 +276,12 @@ html,body
 
 .main-goggles-banner {
     width: 50vw;
-    height: 500px;
     border-radius: 50px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.carousel-img {
+    min-height: 500px;
 }
 
 
@@ -353,9 +356,6 @@ html,body
         padding-left: 5vw;
         padding-right: 5vw;
     }
-
-
-
 
     .geo-img {
         width: 200px;
